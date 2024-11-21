@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eswar portfolio</title>
+    <link rel="stylesheet" href="portfoliostyle.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#category">Categories</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello I am</h3>
+        <h1>Eswar P</h1>
+        <h3>And I am a <span>Student</span></h3>
+        
+        <p>
+            I am a AI and Machine Learning student pursuing a degree in Computer Science and Engineering
+            at RVR & JC College of Engineering.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href=" https://www.linkedin.com/in/eswar-potti/"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/eswarpotti3"><i class="bx bxl-github"></i></a>
+        </div>
+        <a href="#" class="btn">Download Resume</a>
+      </div>
+      <div class="home-img">
+        <img src="quality.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- about page -->
+    <section id="about" class="about">
+      <div class="about-img">
+        <img src="quality.jpg" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About<span>Me</span></h2>
+        <p>
+            Aspiring AI and Machine Learning student pursuing a degree in Computer Science and Engineering.
+            Experienced in coding with C, Java, and Python, with a foundational grasp of SQL, HTML, and CSS.
+            Passionate about learning new problem-solving techniques and expanding technical knowledge. Looking for
+            a collaborative workplace that encourages growth and supports career progression
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </section>
+
+    <!-- category section -->
+    <section class="category" id="category">
+      <h2 class="heading">My<span>Skills</span></h2>
+      <div class="category-container">
+        <div class="category-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+        <div class="category-box">
+          <i class="bx bxs-data"></i>
+          <h3>Data Science</h3>
+          <p>
+            Data science is the study of data to extract meaningful insights that can be used to guide decision making and strategic planning. It's an interdisciplinary field that combines principles and practices from the fields of mathematics, statistics, artificial intelligence, and computer engineering.
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+        <div class="category-box">
+          <i class="bx bxl-python"></i>
+          <h3>AI & ML</h3>
+          <p>
+            AI/ML—short for artificial intelligence (AI) and machine learning (ML)—represents an important evolution in computer science and data processing that is quickly transforming a vast array of industries.
+As businesses and other organizations undergo digital transformation, they’re faced with a growing tsunami of data that is at once incredibly valuable and increasingly burdensome to collect, process and analyze. New tools and methodologies are needed to manage the vast quantity of data being collected, to mine it for insights and to act on those insights when they’re discovered.
+          </p>
+          <a href="" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Projects <span>Done</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="ji.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web design</h4>
+            <p>
+              
+            </p>
+            <a href=""><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="ji.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web design</h4>
+            <p>
+              
+            </p>
+            <a href=""><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="ji.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web design</h4>
+            <p>
+              
+            </p>
+            <a href=""><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="ji.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web design</h4>
+            <p>
+              
+            </p>
+            <a href=""><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </section>
+
+    <!-- contact me -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact<span>Me!!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
