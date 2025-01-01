@@ -1,2 +1,2 @@
 # Portfolio
-this my protfolio when I have all my skill set
+this my protfolio where u can see all my skill set
